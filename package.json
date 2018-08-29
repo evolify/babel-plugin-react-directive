@@ -1,0 +1,9 @@
+{
+  "name": "babel-plugin-react-directive",
+  "version": "0.1.1",
+  "description": "Use directives in React.",
+  "main": "index.js",
+  "repository": "git@github.com:evolify/babel-plugin-react-directive.git",
+  "author": "孤狼 <wolf@evolify.cn>",
+  "license": "MIT"
+}
