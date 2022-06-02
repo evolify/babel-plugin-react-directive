@@ -5,8 +5,7 @@
   "author": "孤狼 <wolf@evolify.cn>",
   "license": "MIT",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
