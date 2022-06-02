@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-react-directive",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Use directives in React.",
   "author": "孤狼 <wolf@evolify.cn>",
   "license": "MIT",
