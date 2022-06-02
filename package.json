@@ -2,8 +2,37 @@
   "name": "babel-plugin-react-directive",
   "version": "0.1.1",
   "description": "Use directives in React.",
-  "main": "index.js",
-  "repository": "git@github.com:evolify/babel-plugin-react-directive.git",
   "author": "孤狼 <wolf@evolify.cn>",
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "unbuild --stub",
+    "build": "unbuild"
+  },
+  "repository": "git@github.com:evolify/babel-plugin-react-directive.git",
+  "dependencies": {
+    "@babel/types": "^7.18.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/traverse": "^7.18.2",
+    "@types/babel__core": "^7.1.19",
+    "unbuild": "^0.7.4"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0"
+  }
 }
