@@ -82,9 +82,9 @@ Now you can use `r-if`、`r-for` in jsx.
       const list = [1, 2, 3, 4, 5]
       return(
           <div>
-              // auto set 'key' to the index.
+              {/* auto set 'key' to the index */} 
               <div r-for = {item in list}>{item}</div>
-              // or you can set the key manually.
+              {/* or you can set the key manually */}
               <div r-for = {(item,index) in list} key = {index+1}>{item}</div>
           </div>
       )
